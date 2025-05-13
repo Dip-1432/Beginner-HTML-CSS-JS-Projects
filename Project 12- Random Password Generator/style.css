@@ -1,0 +1,76 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(135deg,lightgrey,gray);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   background: linear-gradient(135deg,gray,lightgrey);
+   padding: 20px;
+   border: 10px solid gray;
+   border-radius: 10px;
+}
+.content h1{
+   text-align: center;
+   text-decoration: underline;
+}
+.inContainer{
+   display: flex;
+   justify-content: center;
+}
+.inContainer input{
+   width: 50%;
+   height: 50px;
+   /* align-self: center; */
+   border: 2px solid black;
+   border-radius: 5px;
+   font-weight: bolder;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.container{
+   display: flex;
+   justify-content: space-around;
+}
+.container h3{
+   color:blanchedalmond;
+}
+#userInput{
+   height: 40px;
+   width: 300px;
+   font-weight: bolder;
+   border-radius: 10px;
+   border: 3px dashed black;
+}
+.buttons{
+   display: flex;
+   gap: 55px;
+}
+#gen,#cpy,#res{
+   width: 250px;
+   height: 45px;
+   border: 2px solid black;
+   border-radius: 5px;
+   font-weight: bolder;
+   font-size: 20px;
+}
+#gen:hover{
+   background-color: green;
+   cursor: pointer;
+}
+#res:hover{
+   background-color: red;
+   cursor: pointer;
+}
+#cpy:hover{
+   background-color: blue;
+   cursor: pointer;
+}

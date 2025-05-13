@@ -1,0 +1,47 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100vh;
+}
+ul{
+   list-style: none;
+}
+a{
+   color: black;
+   text-decoration: none;
+   transition: font-size 0.2s ease-in-out;
+}
+a:hover{
+   font-size: 25px;
+   font-weight: bolder;
+   color: blue;
+   transform: scale(1.1);
+}
+a:active{
+   color: red;
+}
+img{
+   width: 100px;
+   height: 100px;
+}
+#imageLogo:hover{
+   cursor: pointer;
+}
+.main{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   background-color: gray;
+}
+.menu{
+   display: flex;
+   gap: 40px;
+}
+main{
+   font-weight: bold;
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 50px;
+}

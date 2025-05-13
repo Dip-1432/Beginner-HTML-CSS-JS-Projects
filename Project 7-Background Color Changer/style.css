@@ -1,0 +1,45 @@
+body{
+   height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+   align-items: center;
+   margin-left: 25%;
+}
+#head{
+   text-align: center;
+   text-decoration: underline;
+   font-weight: bolder;
+}
+.content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.box{
+   height: 200px;
+   width: 200px;
+   margin: 20px;
+   padding: 20px;
+   font-weight: bolder;
+   text-align: center;
+   cursor: pointer;
+}
+#red{
+   background-color: red;
+}
+#blue{
+   background-color: blue;
+}
+#green{
+   background-color: green;
+}
+#purple{
+   background-color: purple;
+}
+#gold{
+   background-color: gold;
+}
+#gray{
+   background-color: gray;
+}

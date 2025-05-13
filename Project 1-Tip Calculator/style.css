@@ -1,0 +1,108 @@
+body {
+   background-color: slateblue;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   width: 65%;
+   height: 70%;
+   background-color: #FFFAF0;
+   border: 10px solid black;
+   border-radius: 10px;
+   padding: 20px;
+   color: slateblue;
+   display: flex;
+   flex-direction: column;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+h1 {
+   color: black;
+   text-align: center;
+   font-size: 50px;
+}
+
+h2 {
+   text-align: center;
+   font-size: 30px;
+}
+
+#bill,
+#tip {
+   font-weight: bolder;
+   font-size: 30px;
+   margin: 10px;
+}
+
+#bill input,
+#tip input {
+   width: 50%;
+   height: 30px;
+   padding: 10px;
+   background-color: #f5e9d0;
+   border: 5px double black;
+   border-radius: 5px;
+}
+
+#Calculate {
+   font-weight: bold;
+   font-size: 30px;
+   background-color: lightpink;
+   border: 2px double black;
+   border-radius: 10px;
+   color: black;
+   align-items: center;
+   height: 50px;
+   width: 50%;
+   margin-left: 25%;
+}
+
+#reset {
+   font-weight: bold;
+   font-size: 30px;
+   background-color: lightpink;
+   border: 5px solid black;
+   border-radius: 20%;
+   color: black;
+   align-items: center;
+   padding: 5px;
+   margin-left: 80%;
+}
+
+#Calculate:hover,
+#reset:hover {
+   background-color: rgb(244, 83, 110);
+   cursor: pointer;
+   color: black;
+}
+
+::placeholder {
+   font-weight: bolder;
+}
+
+.total {
+   display: flex;
+   justify-content: space-between;
+}
+
+#totalTip {
+   font-size: 30px;
+   font-weight: bold;
+   color: palevioletred;
+   text-align: center;
+}
+
+#totalBill {
+   font-size: 30px;
+   font-weight: bolder;
+   color: palevioletred;
+   text-align: center;
+}

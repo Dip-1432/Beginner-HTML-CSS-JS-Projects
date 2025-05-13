@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Random Password Generator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="content">
+      <h1>Random Password Generator</h1>
+      <h2>Click on the button below to generate a random password</h2>
+      <div class="container">
+         <h3>Choose the length of your password, aside</h3>
+         <select name="userInput" id="userInput">
+            <option value="">Select your length</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+         </select>
+      </div>
+      <div class="inContainer">
+         <input type="text" name="pass" id="pass" placeholder="Your random password will be generated here">
+      </div>
+      <div class="buttons">
+         <button id="gen">Generate</button>
+         <button id="res">Reset</button>
+         <button id="cpy">Copy Password</button>
+      </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
