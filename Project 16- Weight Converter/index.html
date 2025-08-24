@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weight Converter</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="content">
+      <h1>Weight Converter</h1>
+      <div class="container">
+         <h2>Please select your input and output units from the options below......</h2>
+         <div class="inputs">
+            <input type="number" class="input" name="input" id="userInput" placeholder="Enter the weight here to convert">
+            <select name="input" class="input" id="userChoiceInput">
+               <option value="">select the input unit</option>
+               <option value="1">kilogram</option>
+               <option value="2">pound</option>
+               <option value="3">ounce</option>
+               <option value="4">gram</option>
+            </select>
+         </div>
+         <div class="outputs">
+            <input type="number" class="output" name="output" id="userOutput" placeholder="Your converted weight">
+            <select name="output" class="output" id="userChoiceOutput">
+               <option value="">select the output unit</option>
+               <option value="1">kilogram</option>
+               <option value="2">pound</option>
+               <option value="3">ounce</option>
+               <option value="4">gram</option>
+            </select>
+         </div>
+         <div class="result">
+            <div class="buttons">
+               <button id="btn">Convert</button>
+               <button id="res">Reset</button>
+            </div>
+            <p id="hint">Hint: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nostrum.</p>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,78 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(135deg,skyblue,lightgreen);
+   display: flex;
+   height: 100vh;
+   width: 75%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 12.5%;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   background: linear-gradient(135deg,lightgreen,skyblue);
+   opacity: 0.85;
+   border: 5px solid gray;
+   border-radius: 10px;
+}
+.content h1{
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: 2px;
+}
+.content h2{
+   text-align: center;
+   color: goldenrod;
+}
+.input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-weight: bolder;
+   font-size: larger;
+   color: darkolivegreen;
+}
+.input input{
+   border: 2px solid goldenrod;
+   background-color: rgba(240, 249, 166, 0.429);
+   border-radius: 4px;
+   font-size: large;
+   margin: 10px 100px;
+   padding: 10px;
+   height: 25px;
+}
+.output {
+   display: flex;
+   justify-content: space-evenly;
+   font-weight: bolder;
+   text-transform: capitalize;
+   color: black;
+}
+.output button{
+   width: 25%;
+   height: 100%;
+   padding: 10px;
+   border-radius: 12px;
+   font-size: larger;
+   font-weight: bolder;
+}
+#btn{
+   background-color: lightgreen;
+   border: 5px solid green;
+}
+#btn:hover{
+   background-color: green;
+   cursor: pointer;
+}
+#res:hover{
+   background-color: blue;
+   cursor: pointer;
+}
+#res{
+   background-color: skyblue;
+   border: 5px solid blue;
+}
