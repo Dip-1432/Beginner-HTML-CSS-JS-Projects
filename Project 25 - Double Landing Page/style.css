@@ -1,0 +1,82 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100vh;
+   width: 100%;
+}
+.container{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid black;
+}
+.container h1{
+   text-align: center;
+   letter-spacing: 4px;
+   word-spacing: 10px;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.content{
+   height: 100%;
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.content .left, .content .right{
+   height: 100%;
+   width: 100%;
+   transition: all 2s ease;
+}
+.content .left{
+   background-image: url(./images/iphone14-pro-max-lineup.png);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: palevioletred;
+}
+.content .right{
+   background-image: url(./images/Thumb1.png);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: darkolivegreen;
+}
+.content .left:hover, .content .right:hover{
+   cursor: pointer;
+   transform: scale(1.4);
+}
+.content .left h2, .content .right h2{
+   width: 100%;
+   font-weight: bolder;
+   font-size: larger;
+   text-align: center;
+   color: white;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+}
+.gen{
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 50%;
+   padding: 10px;
+   font-weight: bold;
+   font-size: larger;
+   border-radius: 5px;
+   background-color: black;
+   border: 4px double white;
+   color: white;
+   transition: all 0.5s ease;
+}
+.gen:hover{
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   border: 4px double black;
+}

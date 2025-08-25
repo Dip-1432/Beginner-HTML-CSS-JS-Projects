@@ -1,0 +1,100 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Courier New', Courier, monospace;
+   background: linear-gradient(135deg,darkgreen,gold);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   height: 75%;
+   background-color: rgba(141, 140, 140, 0.068);
+   border-radius: 10px;
+   padding: 20px;
+   border: 30px solid rgb(0, 139, 139,0.05);
+}
+.content h1{
+   text-align: center;
+   text-decoration: underline;
+   font-size: 60px;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+.container h2{
+   text-align: center;
+   font-size: 30px;
+   color: black;
+}
+.inputs,.outputs{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   gap: 10px;
+}
+#userInput,#userOutput{
+   width: 40%;
+   height: 50px;
+   background-color: lightgray;
+   text-align: center;
+   font-weight: bold;
+   text-transform: capitalize;
+   border-radius: 3px;
+   border: 3px double black;
+}
+#userChoiceInput,#userChoiceOutput{
+   width: 30%;
+   height: 70%;
+   background-color: lightseagreen;
+   font-weight: bold;
+   text-transform: capitalize;
+   border-radius: 10px;
+   border: 2px solid black;
+}
+.buttons{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+}
+#btn{
+   width: 30%;
+   height: 100%;
+   background-color: lightgreen;
+   border: 3px solid darkgreen;
+   border-radius: 12px;
+   color: black;
+   font-weight: bolder;
+   font-size: larger;
+   padding: 5px;
+}
+#btn:hover{
+   background-color: darkgreen;
+   cursor: pointer;
+}
+#res:hover{
+   background-color: gold;
+   cursor: pointer;
+}
+#res{
+   width: 30%;
+   height: 100%;
+   background-color: goldenrod;
+   border: 3px solid gold;
+   border-radius: 12px;
+   color: black;
+   font-weight: bolder;
+   font-size: larger;
+   padding: 5px;
+}
+.result p{
+   margin-top: 50px;
+   font-weight: bold;
+   text-align: center;
+}

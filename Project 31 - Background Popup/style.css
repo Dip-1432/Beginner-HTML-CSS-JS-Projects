@@ -1,0 +1,117 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 100vh;
+   width: 100%;
+   background-image: url(./images/technology-6701504.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.main-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+   position: relative;
+   transition: all 1.5s ease-in-out;
+}
+
+.main-container h1{
+   text-align: center;
+   color: navy;
+   letter-spacing: 4px;
+   word-spacing: 10px;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+
+.main-container h2{
+   text-align: center;
+   color: black;
+   letter-spacing: 2px;
+   word-spacing: 5px;
+   text-transform: capitalize;
+   font-style: italic;
+}
+
+.main-container #gen{
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: large;
+   padding: 5px;
+   background-color: skyblue;
+   border: 5px solid navy;
+   border-radius: 10px;
+   transition: all 0.3s ease;
+}
+#gen:hover{
+   cursor: pointer;
+   background-color: navy;
+   color: white;
+   letter-spacing: 3px;
+}
+
+.main-container .popup-container{
+   position: fixed;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 600px;
+   height: 300px;
+   gap: 50px;
+   /* background-color: #fff; */
+   background-image: url("./images/technology-785742.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   padding: 20px;
+   transition: all 1.5s ease-in-out;
+}
+.main-container .popup-container #close{
+   align-self: flex-end;
+   background: transparent;
+   border: none;
+   font-size: 50px;
+   color: white;
+}
+.main-container .popup-container #close:hover{
+   cursor: pointer;
+   color: red;
+}
+
+.main-container .popup-container #userEmail{
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: large;
+   padding: 5px;
+   width: 500px;
+   background-color: white;
+   border: 5px solid gray;
+   border-radius: 10px;
+}
+
+.main-container .popup-container #submit{
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: large;
+   padding: 10px;
+   background-color: white;
+   border: 5px solid gray;
+   border-radius: 10px;
+}
+.main-container .popup-container #submit:hover{
+   cursor: pointer;
+   background-color: gray;
+   color: white;
+}
+
+.active{
+   visibility: hidden;
+   opacity: 0;
+}

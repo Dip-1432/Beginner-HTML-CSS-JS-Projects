@@ -1,0 +1,114 @@
+body {
+   margin: 0;
+   padding: 0;
+   height: fit-content;
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(135deg, grey, lightgray);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.content {
+   width: 100%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   padding: 40px;
+   position: relative;
+}
+
+.content h1 {
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: 2px;
+   font-weight: bolder;
+   font-size: 60px;
+   text-transform: uppercase;
+}
+
+.content .progress-container {
+   position: fixed;
+   z-index: 0;
+   align-self: center;
+   top: 10px;
+   width: 100%;
+   height: 50px;
+   background-color: rgb(0, 9, 6,0.5);
+}
+
+.content .progress-container .progress-bar {
+   position: fixed;
+   z-index: 1;
+   height: 50px;
+   width: 0%;
+   text-align: center;
+   font-weight: bolder;
+   background-color: rgb(255, 255, 0,0.5);
+}
+
+.content .container {
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 50px;
+   align-items: center;
+   width: 75%;
+   align-self: center;
+}
+
+
+.content .container .box {
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(135deg, green, lightseagreen);
+   border-radius: 25px;
+   padding: 25px;
+}
+
+.content .container .box .title {
+   text-transform: uppercase;
+   word-spacing: 3px;
+   font-weight: bolder;
+   font-size: 30px;
+   color: maroon;
+   text-align: center;
+}
+
+.content .container .box .body {
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   text-transform: capitalize;
+   color: black;
+}
+
+.content .container .box .reactions,
+.content .container .box .tags {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.content .container .box .reactions .reaction {
+   font-size: 30px;
+   font-weight: bolder;
+   color: darkgoldenrod;
+}
+
+.content .container .box .reactions .like,
+.content .container .box .reactions .dislike,
+.content .container .box .tags .tag {
+   color: black;
+   font-size: 30px;
+   font-weight: bolder;
+   text-transform: capitalize;
+}
+
+
+
